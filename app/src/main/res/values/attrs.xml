@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义进度条-->
+    <declare-styleable name="CustomeProcessBar">
+        <attr name="processRadiusSize" format="dimension" /><!--进度条圆角半径-->
+        <attr name="processBgRadiusSize" format="dimension" /><!--进度条背景圆角半径-->
+        <attr name="processValue" format="float" /><!--进度条当前值-->
+        <attr name="processMaxValue" format="float" /><!--进度条最大值-->
+        <attr name="processColor" format="color" /><!--进度条颜色-->
+        <attr name="processBgColor" format="color" /><!--进度条背景颜色-->
+    </declare-styleable>
+</resources>

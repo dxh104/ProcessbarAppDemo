@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.processbarapp.CustomeProcessBar
+        android:id="@+id/customeProcessBar"
+        android:layout_width="523px"
+        android:layout_height="17px"
+        android:layout_marginTop="100px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:processBgColor="#EBEBEB"
+        app:processBgRadiusSize="12px"
+        app:processColor="#46A0F4"
+        app:processMaxValue="100"
+        app:processRadiusSize="12px"
+        app:processValue="0" />
+
+</android.support.constraint.ConstraintLayout>
